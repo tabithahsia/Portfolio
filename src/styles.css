@@ -16,6 +16,8 @@ button:hover {
 
 h1 {
   font-family: 'Roboto Mono', monospace;
+  text-indent: 1.5%;
+  text-align: left;
 }
 
 h2#header {
