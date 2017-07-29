@@ -1,12 +1,18 @@
 import React from 'react';
+
+//Photos from Buzz
 import BuzzHome from '../assets/images/Buzz Home.png';
 import BuzzHomeLarge from '../assets/images/Buzz Home Large.png';
 import BuzzCategories from '../assets/images/Buzz Categories.png';
 import BuzzCategoriesLarge from '../assets/images/Buzz Categories Large.png';
 import BuzzHHList from '../assets/images/Buzz HH List.png';
 import BuzzHHListLarge from '../assets/images/Buzz HH List Large.png';
+
+//Photos from JCF Page
 import JCFHome from '../assets/images/JCF Home.png';
 import JCFHomeLarge from '../assets/images/JCF Home Large.png';
+
+//Photos from iResist 
 import iResistProtests from '../assets/images/iResist Protests.png';
 import iResistProtestsLarge from '../assets/images/iResist Protests Large.png';
 import iResistProtestInfo from '../assets/images/iResist Protest Info.png';
