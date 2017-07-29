@@ -5,7 +5,7 @@ button {
    height:300px;
    width:300px;
    cursor:pointer;
-   font-size: 30px;
+   font-size: 28px;
    border-width: 5px;
 }
 
@@ -14,8 +14,8 @@ button:hover {
    color:white;
 }
 
-h1 {
-  font-family: 'Zilla Slab', serif;
+h2#header {
+  font-family: 'Roboto Mono', monospace;
   text-indent: 3%;
 }
 a {

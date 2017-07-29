@@ -20,7 +20,6 @@ class About extends React.Component {
           I have also played violin for 20 years.
           <br></br>
           I live with my pet fish, Einstein Bettafin Hsia.
-
         </p>
         <h3> Skills </h3>
         <p><strong>Strong</strong>: Javascript ES6, HTML, React, Node, Express, MySQL, SQL, Redux </p>

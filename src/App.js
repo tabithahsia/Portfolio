@@ -59,7 +59,7 @@ class App extends Component {
     const { open } = this.state;
     return (
       <div>
-        <h1>Tabitha Hsia, Full-Stack Web Developer / Violinist </h1>
+        <h2 id="header">Tabitha Hsia, Full-Stack Web Developer & Violinist </h2>
         <hr></hr>
         <br></br>
         <div className="container">
