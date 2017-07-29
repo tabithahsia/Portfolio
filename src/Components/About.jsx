@@ -30,7 +30,7 @@ class About extends React.Component {
         <p><strong>Knowledgeable</strong>:   CSS, Backbone, jQuery, PostgreSQL, React-Router, Heroku, MongoDB, Mongoose, Bluebird, Knex, Git, C++, Angular, Socket.io, Calculus, Linear Algebra, WebSockets, Jekyll, D3</p>
 
         <h3> Education </h3>
-        <p><strong>University of the Pacific, </strong>  B.A. in Music Violin and Asian Languages and Studies: Chinese, Minor in Pre-Law
+        <p><strong>University of the Pacific, </strong>  B.A. in Music Violin & Asian Languages and Studies: Chinese, Minor in Pre-Law
           <br></br>
           <span id="italicize">Relevant Courses: Intro to Computer Science (C++), Data Structures</span>
           </p>
