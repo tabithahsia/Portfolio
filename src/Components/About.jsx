@@ -27,7 +27,7 @@ class About extends React.Component {
         </p>
         <h3> Skills </h3>
         <p><strong>Strong</strong>: Javascript ES6, HTML, React, Node, Express, MySQL, SQL, Redux </p>
-        <p><strong>Knowledgeable</strong>:   CSS, Backbone, jQuery, PostgreSQL, React-Router, Heroku, MongoDB, Mongoose, Bluebird, Knex, Git, C++, Angular, Socket.io, Calculus, Linear Algebra, WebSockets, Jekyll, D3</p>
+        <p><strong>Knowledgeable</strong>: CSS, Backbone, jQuery, PostgreSQL, React-Router, Heroku, MongoDB, Mongoose, Bluebird, Knex, Git, C++, Angular, Socket.io, WebSockets, Jekyll, D3</p>
 
         <h3> Education </h3>
         <p><strong>University of the Pacific, </strong>  B.A. in Music Violin & Asian Languages and Studies: Chinese, Minor in Pre-Law
