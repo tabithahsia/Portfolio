@@ -1,4 +1,5 @@
 import React from 'react';
+import Modal from 'react-responsive-modal';
 
 //Photos from Buzz
 import BuzzHome from '../assets/images/Buzz Home.png';
@@ -12,7 +13,7 @@ import BuzzHHListLarge from '../assets/images/Buzz HH List Large.png';
 import JCFHome from '../assets/images/JCF Home.png';
 import JCFHomeLarge from '../assets/images/JCF Home Large.png';
 
-//Photos from iResist 
+//Photos from iResist
 import iResistProtests from '../assets/images/iResist Protests.png';
 import iResistProtestsLarge from '../assets/images/iResist Protests Large.png';
 import iResistProtestInfo from '../assets/images/iResist Protest Info.png';
@@ -48,7 +49,7 @@ class Portfolio extends React.Component {
         <span> Check it out at<a href="https://i-resist.herokuapp.com" target="_blank" rel="noopener noreferrer">i-resist.herokuapp.com</a> and see the code on <a href="https://github.com/iResist/iResist" target="_blank" rel="noopener noreferrer" >Github</a></span>
         <br></br>
         <br></br>
-
+        
         <a target="_blank" href={iResistProtestsLarge}><img src={iResistProtests} alt="iResist Protests" /></a>
         <a target="_blank" href={iResistProtestInfoLarge} rel="noopener"><img src={iResistProtestInfo} alt="iResist Protests Info" /></a>
         <a target="_blank" href={iResistMapLarge} rel="noopener"><img src={iResistMap} alt="iResist Map" /></a>
