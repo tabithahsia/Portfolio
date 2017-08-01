@@ -19,7 +19,7 @@ class About extends React.Component {
         <p>
           Hello there! My name is Tabitha Hsia. I am a Full-Stack Web Developer based in the San Francisco Bay Area.
           <br></br>
-          I enjoy challenging myself through learning new technologies and implementing them in projects.
+          I enjoy challenging myself through learning new technologies and implementing them in interesting projects.
           <br></br>
           I have also played violin for 20 years and am an active musician.
           <br></br>
