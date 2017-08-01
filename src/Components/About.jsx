@@ -13,7 +13,9 @@ class About extends React.Component {
     return (
       <div>
         <h2>About Me</h2>
-        <img src={Selfie3} alt="Selfie3" />
+        {
+          // <img src={Selfie3} alt="Selfie3" />
+        }
         <p>
           Hello there! My name is Tabitha Hsia. I am a Full-Stack Web Developer based in the San Francisco Bay Area.
           <br></br>
