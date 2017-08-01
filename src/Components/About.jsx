@@ -1,7 +1,4 @@
 import React from 'react';
-import Selfie from '../assets/images/Selfie.jpg';
-import Selfie1 from '../assets/images/Selfie1.jpg';
-import Selfie2 from '../assets/images/Selfie2.jpg';
 import Selfie3 from '../assets/images/Selfie3.jpg';
 
 class About extends React.Component {
