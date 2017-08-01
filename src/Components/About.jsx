@@ -2,6 +2,7 @@ import React from 'react';
 import Selfie from '../assets/images/Selfie.jpg';
 import Selfie1 from '../assets/images/Selfie1.jpg';
 import Selfie2 from '../assets/images/Selfie2.jpg';
+import Selfie3 from '../assets/images/Selfie3.jpg';
 
 class About extends React.Component {
   constructor(props) {
@@ -15,7 +16,7 @@ class About extends React.Component {
     return (
       <div>
         <h2>About Me</h2>
-        <img src={Selfie2} alt="Selfie2" />
+        <img src={Selfie3} alt="Selfie3" />
         <p>
           Hello there! My name is Tabitha Hsia. I am a Full-Stack Web Developer based in the San Francisco Bay Area.
           <br></br>
