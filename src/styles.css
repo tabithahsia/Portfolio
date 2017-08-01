@@ -39,9 +39,9 @@ h2#header {
   text-indent: 3%;
 }
 
-h3#about {
+/*h3#about {
   text-decoration: underline;
-}
+}*/
 a {
     margin: 10px;
     margin-top: 50px;
