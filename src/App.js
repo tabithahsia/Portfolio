@@ -29,6 +29,7 @@ class App extends Component {
       showAbout: true,
       showPortfolio: false,
       showContact: false,
+      showMusic: false,
       open: true
     })
   }
@@ -37,6 +38,7 @@ class App extends Component {
       showPortfolio: true,
       showAbout: false,
       showContact: false,
+      showMusic: false,
       open: true
     })
   }
@@ -46,6 +48,7 @@ class App extends Component {
       showContact: true,
       showAbout: false,
       showPortfolio: false,
+      showMusic: false,
       open: true
     })
   }
