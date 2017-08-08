@@ -35,7 +35,7 @@ class Music extends React.Component {
         <h3>Tchaikovsky Melodie (No. 3)</h3>
           <ReactAudioPlayer
             src={Melodie}
-            controle
+            controls
           />
       </div>
     )
