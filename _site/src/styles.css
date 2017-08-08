@@ -1,0 +1,101 @@
+button {
+   font-family: 'Open Sans', sans-serif;
+   border: 1px outset black;
+   background-color: white;
+   height:300px;
+   width:300px;
+   cursor:pointer;
+   font-size: 30px;
+   border-width: 5px;
+}
+
+button:hover {
+   background-color: black;
+   color:white;
+}
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  text-indent: 1.5%;
+}
+
+/*h1[data-descr]:hover::after {
+  content: attr(data-descr);
+  position: absolute;
+  left: 0;
+  top: 24px;
+  min-width: 200px;
+  border: 1px #aaaaaa solid;
+  border-radius: 10px;
+  background-color: #ffffcc;
+  padding: 12px;
+  color: #000000;
+  font-size: 14px;
+  z-index: 1;
+}*/
+
+h2#header {
+  font-family: 'Roboto Mono', monospace;
+  text-indent: 3%;
+}
+
+/*h3#about {
+  text-decoration: underline;
+}*/
+a {
+    margin: 10px;
+    margin-top: 50px;
+}
+
+#italicize {
+  font-style: italic;
+}
+
+input {
+  width: 375px;
+  display: block;
+  border: 1px solid #999;
+  height: 25px;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+textarea {
+  width: 375px;
+  height: 150px;
+}
+
+
+
+ul {
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+}
+
+#image {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.divider {
+    width:10px;
+    height:auto;
+    display:inline-block;
+}
+
+.thumbnail img {
+  max-height: 100%;
+  max-width: 100%;
+}

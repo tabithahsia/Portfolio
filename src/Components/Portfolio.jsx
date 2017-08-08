@@ -29,11 +29,20 @@ class Portfolio extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-
+      open: false
     }
   }
 
+  onOpenModal = () => {
+    this.setState({ open: true });
+  };
+
+  onCloseModal = () => {
+    this.setState({ open: false });
+  };
+
   render() {
+    const { open } = this.state;
     return (
       <div>
         <h2>Portfolio</h2>
@@ -49,7 +58,7 @@ class Portfolio extends React.Component {
         <span> Check it out at<a href="https://i-resist.herokuapp.com" target="_blank" rel="noopener noreferrer">i-resist.herokuapp.com</a> and see the code on <a href="https://github.com/iResist/iResist" target="_blank" rel="noopener noreferrer" >Github</a></span>
         <br></br>
         <br></br>
-        
+        <input type="image" src={iResistProtests} alt="iResistProtests" />
         <a target="_blank" href={iResistProtestsLarge}><img src={iResistProtests} alt="iResist Protests" /></a>
         <a target="_blank" href={iResistProtestInfoLarge} rel="noopener"><img src={iResistProtestInfo} alt="iResist Protests Info" /></a>
         <a target="_blank" href={iResistMapLarge} rel="noopener"><img src={iResistMap} alt="iResist Map" /></a>
@@ -58,7 +67,7 @@ class Portfolio extends React.Component {
 
       <h3>Buzz: SF Happy Hour Finder </h3>
       <p>
-        Buzz allows users to find happy hours in SF neighborhoods. Users can select a neighborhood or choose a category (Divey, Bougie, Hip, etc.) and see recommendations.
+        Buzz allows users to find happy hours in SF neighborhoods. Users can select a neighborhood or choose a category (Divey, Bougie, Hip, etc.) and see recommendations. This app was created because Yelp did not have information on what time happy hours occured.
         <br></br>
         Turn your "sad hours" into "happy hours"
       </p>

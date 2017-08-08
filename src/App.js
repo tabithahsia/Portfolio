@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import About from './Components/About.jsx';
 import Portfolio from './Components/Portfolio.jsx';
 import Contact from './Components/Contact.jsx';
+import Music from './Components/Music.jsx';
 import './styles.css'
 import Modal from 'react-responsive-modal';
 import Github from './GitHub-Mark-64px.png';
@@ -14,11 +15,13 @@ class App extends Component {
       showAbout: false,
       showPortfolio: false,
       showContact: false,
+      showMusic: false,
       open: false
     }
     this.handleAbout = this.handleAbout.bind(this);
     this.handlePortfolio = this.handlePortfolio.bind(this);
     this.handleContact = this.handleContact.bind(this);
+    this.handleMusic = this.handleMusic.bind(this);
   }
 
   handleAbout () {
@@ -47,6 +50,16 @@ class App extends Component {
     })
   }
 
+  handleMusic () {
+    this.setState({
+      showMusic: true,
+      showAbout: false,
+      showContact: false,
+      showPortfolio: false,
+      open: true
+    })
+  }
+
   onOpenModal = () => {
     this.setState({ open: true });
   };
@@ -66,6 +79,7 @@ class App extends Component {
           <button className="item" onClick={ () => this.handleAbout() }>About</button>
           <button className="item" onClick={ () => this.handlePortfolio() }>Portfolio</button>
           <button className="item" onClick={ () => this.handleContact() }>Contact</button>
+          <button className="item" onClick={ () => this.handleMusic() }>Music</button>
 
           { this.state.showAbout ?
             <Modal open={open} onClose={this.onCloseModal} > <About /> </Modal>
@@ -79,6 +93,12 @@ class App extends Component {
           }
           { this.state.showContact ?
             <Modal open={open} onClose={this.onCloseModal} little> <Contact /> </Modal>
+            :
+            null
+          }
+          {
+            this.state.showMusic ?
+            <Modal open={open} onClose={this.onCloseModal}> <Music /> </Modal>
             :
             null
           }
