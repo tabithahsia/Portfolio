@@ -18,7 +18,7 @@ class Music extends React.Component {
   render() {
     return (
       <div>
-        <h2>Violin Music</h2>
+        <h2>Pieces I've played</h2>
 
         <h3>Prokofiev Violin Concerto 1, 2nd Movement</h3>
           <ReactAudioPlayer
