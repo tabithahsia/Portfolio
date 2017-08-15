@@ -15,7 +15,7 @@ class About extends React.Component {
         <h2>About Me</h2>
         <img src={Selfie3} alt="Selfie3" />
         <p>
-          Hello there! My name is Tabitha Hsia. I am a Full-Stack Web Developer based in the San Francisco Bay Area.
+          Hello there! My name is Tabitha Hsia. I am a Full-Stack Software Engineer based in the San Francisco Bay Area.
           <br></br>
           I enjoy challenging myself through learning new technologies and implementing them in interesting projects.
           <br></br>
