@@ -22,8 +22,8 @@ class About extends React.Component {
           I have also played violin for 20 years and am an active musician.
         </p>
         <h3 id="about"> Skills </h3>
-        <p><strong>Strong</strong>: Javascript ES6, HTML, React, Redux, Node, Express, MySQL, SQL </p>
-        <p><strong>Knowledgeable</strong>: CSS, Backbone, jQuery, PostgreSQL, React-Router, Heroku, MongoDB, Mongoose, Bluebird, Knex, Git, C++, Angular, Socket.io, WebSockets, Jekyll, D3</p>
+        <p><strong>Strong</strong>: Javascript ES6, HTML, React, Redux, Node, Express, MySQL </p>
+        <p><strong>Knowledgeable</strong>: CSS, Backbone, jQuery, PostgreSQL, React-Router, Heroku, MongoDB, Mongoose, Bluebird, Knex, Git, C++, Angular, WebSockets, Jekyll, D3</p>
 
         <h3 id="about"> Education </h3>
         <p><strong>University of the Pacific, </strong>  B.A. in Music Violin & Asian Languages and Studies: Chinese, Minor in Pre-Law
