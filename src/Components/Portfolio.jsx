@@ -69,6 +69,7 @@ class Portfolio extends React.Component {
       <p>
         Buzz allows users to find happy hours in SF neighborhoods. Users can select a neighborhood or choose a category (Divey, Bougie, Hip, etc.) and see recommendations. This app was created because Yelp did not have information on what time happy hours occured.
         <br></br>
+        <br></br>
         Turn your "sad hours" into "happy hours"
       </p>
       <p id="italicize">
@@ -84,7 +85,7 @@ class Portfolio extends React.Component {
 
       <h3>Journey Christian Fellowship Homepage</h3>
       <p>
-        This is the website for Journey Christian Fellowship, a church in Walnut Creek.
+        This is the website for Journey Christian Fellowship, a church in Walnut Creek. 
       </p>
       <p id="italicize">
         JCF's homepage is built with Jekyll and Heroku
