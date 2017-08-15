@@ -1,5 +1,4 @@
 import React from 'react';
-import Modal from 'react-responsive-modal';
 
 //Photos from Buzz
 import BuzzHome from '../assets/images/Buzz Home.png';
@@ -85,7 +84,7 @@ class Portfolio extends React.Component {
 
       <h3>Journey Christian Fellowship Homepage</h3>
       <p>
-        This is the website for Journey Christian Fellowship, a church in Walnut Creek. 
+        This is the website for Journey Christian Fellowship, a church in Walnut Creek.
       </p>
       <p id="italicize">
         JCF's homepage is built with Jekyll and Heroku
