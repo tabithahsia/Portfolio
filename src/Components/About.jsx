@@ -20,8 +20,6 @@ class About extends React.Component {
           I enjoy challenging myself through learning new technologies and implementing them in interesting projects.
           <br></br>
           I have also played violin for 20 years and am an active musician.
-          <br></br>
-          I also live with my pet fish, Einstein Bettafin Hsia.
         </p>
         <h3 id="about"> Skills </h3>
         <p><strong>Strong</strong>: Javascript ES6, HTML, React, Redux, Node, Express, MySQL, SQL </p>
