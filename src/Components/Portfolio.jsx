@@ -65,7 +65,7 @@ class Portfolio extends React.Component {
 
       <h3>Buzz: SF Happy Hour Finder </h3>
       <p>
-        Buzz allows users to find happy hours in SF neighborhoods. Users can select a neighborhood or choose a category (Divey, Bougie, Hip, etc.) and see recommendations. This app was created because Yelp did not have information on what time happy hours occured.
+        Buzz allows users to find happy hours in SF neighborhoods. Users can select a neighborhood or choose a category (Divey, Bougie, Hip, etc.) and see recommendations. This app was created because Yelp did not have information on what time happy hours occurred.
         <br></br>
         <br></br>
         Turn your "sad hours" into "happy hours"
