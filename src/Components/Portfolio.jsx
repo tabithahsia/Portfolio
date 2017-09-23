@@ -24,6 +24,10 @@ import iResistMessagesLarge from '../assets/images/iResist Messages Large.png';
 import iResistTweets from '../assets/images/iResist Tweets.png';
 import iResistTweetsLarge from '../assets/images/iResist Tweets Large.png';
 
+//Photos from Cat Facts
+import CatFacts from '../assets/images/Cat Facts.png';
+import CatFactsLarge from '../assets/images/Cat Facts Large.png';
+
 class Portfolio extends React.Component {
   constructor(props) {
     super(props);
@@ -91,10 +95,21 @@ class Portfolio extends React.Component {
       <span> Check it out at <a href="http://journeychristianfellowship.herokuapp.com/" target="_blank" rel="noopener noreferrer">journeychristianfellowship.herokuapp.com</a> and see the code on <a href="https://github.com/tabithahsia/churchwebsite" target="_blank" rel="noopener noreferrer">Github</a></span>
         <br></br>
         <br></br>
+      <a target="_blank" href={JCFHomeLarge} rel="noopener"><img src={JCFHome} alt="JCF Homepage" /></a>
 
-        <a target="_blank" href={JCFHomeLarge} rel="noopener"><img src={JCFHome} alt="JCF Homepage" /></a>
+      <h3>Cat Facts</h3>
+      <p>
+        Cat Facts generates cat facts and allows you to share these amazing facts with your friends
+      </p>
+      <p id="italicize">
+        Cat Facts is built with React, NodeJS, ExpressJS, PostgreSQL, and Heroku
+      </p>
+      <span> Check it out at <a href="http://catfacts.life" target="_blank" rel="noopener noreferrer">catfacts.life</a> and see the code on <a href="https://github.com/tabithahsia/Cat-Facts" target="_blank" rel="noopener noreferrer">Github</a></span>
+        <br></br>
+        <br></br>
+      <a target="_blank" href={CatFactsLarge} rel="noopener"><img src={CatFacts} alt="Cat Facts" /></a>
+
       </div>
-
 
     )
   }
