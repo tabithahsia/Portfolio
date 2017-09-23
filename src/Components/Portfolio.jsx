@@ -99,7 +99,7 @@ class Portfolio extends React.Component {
 
       <h3>Cat Facts</h3>
       <p>
-        Cat Facts generates cat facts and allows you to share these amazing facts with your friends
+        Cat Facts generates cat facts and allows you to share these amazing facts with your fellow human beings.
       </p>
       <p id="italicize">
         Cat Facts is built with React, NodeJS, ExpressJS, PostgreSQL, and Heroku
