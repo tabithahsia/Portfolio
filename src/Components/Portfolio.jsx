@@ -28,6 +28,10 @@ import iResistTweetsLarge from '../assets/images/iResist Tweets Large.png';
 import CatFacts from '../assets/images/Cat Facts.png';
 import CatFactsLarge from '../assets/images/Cat Facts Large.png';
 
+//Photo from Yahoogle Mail
+import Yahoogle from '../assets/images/Yahoogle.png';
+import YahoogleLarge from '../assets/images/Yahoogle-Large.png';
+
 class Portfolio extends React.Component {
   constructor(props) {
     super(props);
@@ -59,8 +63,8 @@ class Portfolio extends React.Component {
           iResist is built with React, Redux, Socket.io, Leaflet, Twit, NodeJS, ExpressJS, PostgreSQL, Heroku
         </p>
         <span> Check it out at<a href="https://i-resist.herokuapp.com" target="_blank" rel="noopener noreferrer">i-resist.herokuapp.com</a> and see the code on <a href="https://github.com/iResist/iResist" target="_blank" rel="noopener noreferrer" >Github</a></span>
-        <br></br>
-        <br></br>
+        <br/>
+        <br/>
         <a target="_blank" href={iResistProtestsLarge}><img src={iResistProtests} alt="iResist Protests" /></a>
         <a target="_blank" href={iResistProtestInfoLarge} rel="noopener"><img src={iResistProtestInfo} alt="iResist Protests Info" /></a>
         <a target="_blank" href={iResistMapLarge} rel="noopener"><img src={iResistMap} alt="iResist Map" /></a>
@@ -70,16 +74,16 @@ class Portfolio extends React.Component {
       <h3>Buzz: SF Happy Hour Finder </h3>
       <p>
         Buzz allows users to find happy hours in SF neighborhoods. Users can select a neighborhood or choose a category (Divey, Bougie, Hip, etc.) and see recommendations. This app was created because Yelp did not have information on what time happy hours occurred.
-        <br></br>
-        <br></br>
+        <br/>
+        <br/>
         Turn your "sad hours" into "happy hours"
       </p>
       <p id="italicize">
         Buzz is built with React, NodeJS, ExpressJS, PostgreSQL, Heroku
       </p>
       <span> Check it out at <a href="https://buzzhappyhour.herokuapp.com/" target="_blank" rel="noopener noreferrer">buzzhappyhour.herokuapp.com</a> and see the code on <a href="https://github.com/BuzzHappyHour/Buzz" target="_blank" rel="noopener noreferrer">Github</a></span>
-      <br></br>
-      <br></br>
+      <br/>
+      <br/>
 
       <a target="_blank" href={BuzzHomeLarge} rel="noopener"><img src={BuzzHome} alt="Buzz Homepage" /></a>
       <a target="_blank" href={BuzzCategoriesLarge} rel="noopener"><img src={BuzzCategories} alt="Buzz Categories" /></a>
@@ -93,8 +97,8 @@ class Portfolio extends React.Component {
         JCF's homepage is built with Jekyll and Heroku
       </p>
       <span> Check it out at <a href="http://journeychristianfellowship.herokuapp.com/" target="_blank" rel="noopener noreferrer">journeychristianfellowship.herokuapp.com</a> and see the code on <a href="https://github.com/tabithahsia/churchwebsite" target="_blank" rel="noopener noreferrer">Github</a></span>
-        <br></br>
-        <br></br>
+        <br/>
+        <br/>
       <a target="_blank" href={JCFHomeLarge} rel="noopener"><img src={JCFHome} alt="JCF Homepage" /></a>
 
       <h3>Cat Facts</h3>
@@ -105,9 +109,21 @@ class Portfolio extends React.Component {
         Cat Facts is built with React, NodeJS, ExpressJS, PostgreSQL, and Heroku
       </p>
       <span> Check it out at <a href="http://catfacts.life" target="_blank" rel="noopener noreferrer">catfacts.life</a> and see the code on <a href="https://github.com/tabithahsia/Cat-Facts" target="_blank" rel="noopener noreferrer">Github</a></span>
-        <br></br>
-        <br></br>
+        <br/>
+        <br/>
       <a target="_blank" href={CatFactsLarge} rel="noopener"><img src={CatFacts} alt="Cat Facts" /></a>
+
+      <h3>Yahoogle Mail</h3>
+      <p>
+        Yahoogle Mail is an email service.
+      </p>
+      <p id="italicize">
+        Yahoogle Mail is built with React, NodeJS, ExpressJS, Heroku, SendGrid, and Mailgun
+      </p>
+      <span> Check it out at <a href="http://yahooglemail.herokuapp.com" target="_blank" rel="noopener noreferrer">yahooglemail.herokuapp.com</a> and see the code on <a href="https://github.com/tabithahsia/email-service" target="_blank" rel="noopener noreferrer">Github</a></span>
+        <br/>
+        <br/>
+      <a target="_blank" href={YahoogleLarge} rel="noopener"><img src={Yahoogle} alt="Cat Facts" /></a>
 
       </div>
 
