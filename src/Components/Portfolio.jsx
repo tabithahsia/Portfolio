@@ -113,12 +113,12 @@ class Portfolio extends React.Component {
         <br/>
       <a target="_blank" href={CatFactsLarge} rel="noopener"><img src={CatFacts} alt="Cat Facts" /></a>
 
-      <h3>Yahoogle Mail</h3>
+      <h3>YahoogleMail</h3>
       <p>
-        Yahoogle Mail is an email service.
+        YahoogleMail is an email service.
       </p>
       <p id="italicize">
-        Yahoogle Mail is built with React, NodeJS, ExpressJS, Heroku, SendGrid, and Mailgun
+        YahoogleMail is built with React, NodeJS, ExpressJS, Heroku, SendGrid, and Mailgun
       </p>
       <span> Check it out at <a href="http://yahooglemail.herokuapp.com" target="_blank" rel="noopener noreferrer">yahooglemail.herokuapp.com</a> and see the code on <a href="https://github.com/tabithahsia/email-service" target="_blank" rel="noopener noreferrer">Github</a></span>
         <br/>
