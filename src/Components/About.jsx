@@ -19,7 +19,7 @@ class About extends React.Component {
           <br></br>
           I enjoy challenging myself through learning new technologies and implementing them in interesting projects.
           <br></br>
-          I have also played violin for 20 years and am an active musician.
+          I have also played violin for over 20 years and am an active musician.
         </p>
         <h3 id="about"> Skills </h3>
         <p><strong>Strong</strong>: Javascript ES6, HTML, React, Redux, Node, Express, MySQL </p>
