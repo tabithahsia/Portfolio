@@ -1,5 +1,5 @@
 import React from 'react';
-import Selfie4 from '../assets/images/Selfie4.jpg';
+import Selfie4 from '../assets/images/Selfie4.JPG';
 
 class About extends React.Component {
   constructor(props) {
