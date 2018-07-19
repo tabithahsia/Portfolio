@@ -21,7 +21,7 @@ class About extends React.Component {
           <br></br>
           I have also played violin for over 20 years and am an active musician.
         </p>
-        <div><a href ="http://bit.ly/tabithahsiaresume">Resume</a></div>
+        <a href ="http://bit.ly/tabithahsiaresume">Resume</a>
         <h3 id="about"> Skills </h3>
         <p><strong>Strong</strong>: JavaScript ES6, HTML, React, Redux, Node, Express, MySQL, MongoDB </p>
         <p><strong>Knowledgeable</strong>: CSS, Backbone, jQuery, PostgreSQL, React-Router, Heroku, Mongoose, Bluebird, Knex, Git, C++, Angular, WebSockets, Jekyll, D3</p>
