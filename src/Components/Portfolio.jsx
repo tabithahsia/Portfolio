@@ -49,7 +49,6 @@ class Portfolio extends React.Component {
   };
 
   render() {
-    const { open } = this.state;
     return (
       <div>
         <h2>Portfolio</h2>
@@ -62,7 +61,7 @@ class Portfolio extends React.Component {
         <p id="italicize">
           iResist is built with React, Redux, Socket.io, Leaflet, Twit, NodeJS, ExpressJS, PostgreSQL, Heroku
         </p>
-        <span> Check it out at<a href="https://i-resist.herokuapp.com" target="_blank" rel="noopener noreferrer">i-resist.herokuapp.com</a> and see the code on <a href="https://github.com/iResist/iResist" target="_blank" rel="noopener noreferrer" >Github</a></span>
+        <span> Check it out at <a href="https://i-resist.herokuapp.com" target="_blank" rel="noopener noreferrer">i-resist.herokuapp.com</a> and see the code on <a href="https://github.com/iResist/iResist" target="_blank" rel="noopener noreferrer" >Github</a></span>
         <br/>
         <br/>
         <a target="_blank" href={iResistProtestsLarge}><img src={iResistProtests} alt="iResist Protests" /></a>
