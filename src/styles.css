@@ -34,7 +34,7 @@ h1 {
   z-index: 1;
 }*/
 
-h2#header {
+h2 #header {
   font-family: 'Roboto Mono', monospace;
   text-indent: 3%;
 }
@@ -42,10 +42,16 @@ h2#header {
 /*h3#about {
   text-decoration: underline;
 }*/
-#image{
-    margin: 10px;
-    margin-top: 50px;
+img {
+  margin: 4px;
 }
+#image{
+  /* margin: 10px; */
+  margin-top: 50px;
+}
+/* img#iconImage{
+  margin: 20px;
+} */
 
 #italicize {
   font-style: italic;
@@ -87,7 +93,6 @@ ul {
   flex-flow: row wrap;
   justify-content: center;
   align-items: flex-end;
-
 }
 
 
