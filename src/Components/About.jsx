@@ -13,17 +13,18 @@ class About extends React.Component {
     return (
       <div>
         <h2>About Me</h2>
+        <br></br>
         <img src={Selfie4} alt="Selfie4" id="selfie4"/>
+        <br></br>
+        <br></br>
         <p>
           Hello there! My name is Tabitha Hsia. I am a Full-Stack Software Engineer based in Redmond, WA.
           <br></br>
           I enjoy challenging myself through learning new technologies and implementing them in exciting projects.
           <br></br>
           I have also played violin for over 20 years and am an active musician.
-          <br></br>
-          I am currently a Software Design Engineer Apprentice for Microsoft and am a Junior Developer for Soundiron
         </p>
-        <a href ="http://bit.ly/tabithahsiaresume">Resume</a>
+        <a target="_blank" href ="http://bit.ly/tabithahsiaresume">Resume</a>
         <h3 id="about"> Skills </h3>
         <p><strong>Strong</strong>: JavaScript ES6, ReactJS, Redux, Webpack, Node.js, Express, SQL, PostgreSQL, SQLite, MySQL, MongoDB, Mongoose, Git, HTML5, CSS3, jQuery, Bluebird</p>
         <p><strong>Knowledgeable</strong>: AngularJS, Python, Backbone.js, D3.js, C++, WebSockets, Socket.IO, Jekyll, Heroku, AWS, KSP, Ruby</p>
