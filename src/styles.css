@@ -42,7 +42,7 @@ h2#header {
 /*h3#about {
   text-decoration: underline;
 }*/
-a {
+#image{
     margin: 10px;
     margin-top: 50px;
 }
@@ -74,6 +74,14 @@ ul {
   -moz-columns: 3;
 }
 
+#selfie4 {
+    height: auto;
+    width: auto;
+    max-width: 150px;
+    max-height: 150px;
+    transform: rotate(90deg);
+}
+
 #image {
   display: flex;
   flex-flow: row wrap;
@@ -81,6 +89,7 @@ ul {
   align-items: flex-end;
 
 }
+
 
 .container {
   display: flex;

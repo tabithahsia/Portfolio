@@ -86,8 +86,8 @@ class App extends Component {
         </div>
 
         <div id="image">
-          <a href="https://github.com/tabithahsia" target="_blank" rel="noopener noreferrer"><img src={Github} alt="My Github" className="icon"/></a>
-          <a href="https://linkedin.com/in/tabithahsia" target="_blank" rel="noopener noreferrer"><img src={Linkedin} alt="My Linkedin" className="icon"/></a>
+          <a href="https://github.com/tabithahsia" target="_blank" rel="noopener noreferrer" id="imageAnchor"><img src={Github} alt="My Github" className="icon"/></a>
+          <a href="https://linkedin.com/in/tabithahsia" target="_blank" rel="noopener noreferrer" id="imageAnchor"><img src={Linkedin} alt="My Linkedin" className="icon"/></a>
         </div>
       </div>
     );
