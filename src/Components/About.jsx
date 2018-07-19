@@ -23,8 +23,13 @@ class About extends React.Component {
           I enjoy challenging myself through learning new technologies and implementing them in exciting projects.
           <br></br>
           I have also played violin for over 20 years and am an active musician.
+          <br></br>
+          <br></br>
+          I am currently a Software Design Engineer (Apprentice) @ <a target="_blank" href="https://www.microsoft.com/en-us/Microsoft">Microsoft</a> and a Junior Developer @ <a target="_blank" href="https://soundiron.com/">Soundiron</a>
+          <br></br>
+          I also volunteer as a Front End Developer @ <a target="_blank" href="https://www.sheltertech.org/">Sheltertech</a>
         </p>
-        <a target="_blank" href ="http://bit.ly/tabithahsiaresume">Resume</a>
+        <a target="_blank" href ="http://bit.ly/tabithahsiaresume">Tech Resume</a> | <a target="_blank" href="http://bit.ly/tabithahsiamusicresume">Music Resume</a>
         <h3 id="about"> Skills </h3>
         <p><strong>Strong</strong>: JavaScript ES6, ReactJS, Redux, Webpack, Node.js, Express, SQL, PostgreSQL, SQLite, MySQL, MongoDB, Mongoose, Git, HTML5, CSS3, jQuery, Bluebird</p>
         <p><strong>Knowledgeable</strong>: AngularJS, Python, Backbone.js, D3.js, C++, WebSockets, Socket.IO, Jekyll, Heroku, AWS, KSP, Ruby</p>
