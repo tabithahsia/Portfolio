@@ -33,21 +33,6 @@ import Yahoogle from '../assets/images/Yahoogle.png';
 import YahoogleLarge from '../assets/images/Yahoogle-Large.png';
 
 class Portfolio extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      open: false
-    }
-  }
-
-  onOpenModal = () => {
-    this.setState({ open: true });
-  };
-
-  onCloseModal = () => {
-    this.setState({ open: false });
-  };
-
   render() {
     return (
       <div>

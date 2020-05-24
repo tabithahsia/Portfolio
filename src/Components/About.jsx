@@ -2,13 +2,6 @@ import React from 'react';
 import Selfie6 from '../assets/images/Selfie6.jpg';
 
 class About extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-
-    }
-  }
-
   render() {
     return (
       <div>
@@ -25,9 +18,9 @@ class About extends React.Component {
           I have also played violin for over 20 years and am an active musician.
           <br></br>
           <br></br>
-          I am currently a Software Engineer @ <a target="_blank" href="https://www.microsoft.com/en-us/Microsoft">Microsoft</a>
+          I am currently a Software Engineer @ <a target="_blank" rel="noopener noreferrer" href="https://www.microsoft.com/en-us/Microsoft">Microsoft</a>
         </p>
-        <a target="_blank" href ="http://bit.ly/tabithahsiaresume">Tech Resume</a> | <a target="_blank" href="http://bit.ly/tabithahsiamusicresume">Music Resume</a>
+        <a target="_blank" rel="noopener noreferrer" href ="http://bit.ly/tabithahsiaresume">Tech Resume</a> | <a target="_blank" rel="noopener noreferrer" href="http://bit.ly/tabithahsiamusicresume">Music Resume</a>
         <h3 id="about"> Skills </h3>
         <p><strong>Strong</strong>: TypeScript, JavaScript ES6, C#, ReactJS, Redux, Webpack, Node.js, Express, SQL, PostgreSQL, SQLite, MySQL, MongoDB, Mongoose, Git, HTML5, CSS3, jQuery, Bluebird</p>
         <p><strong>Knowledgeable</strong>: AngularJS, Python, Backbone.js, D3.js, C++, WebSockets, Socket.IO, Jekyll, Heroku, AWS, KSP, Ruby</p>

@@ -8,13 +8,6 @@ import Melodie from '../assets/music/Tchaikovsky Melodie.mp3';
 
 
 class Music extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-
-    }
-  }
-
   render() {
     return (
       <div>
@@ -40,9 +33,9 @@ class Music extends React.Component {
 
         <h2>Pieces I've Transcribed/Arranged</h2>
         <h3> Spirited Away: いつも何度でも ,Itsumo Nando Demo, Always With Me (Piano Trio)</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/8rPdn63yvmM" frameborder="0" allowfullscreen></iframe>
+        <iframe title="Spirited Away" width="560" height="315" src="https://www.youtube.com/embed/8rPdn63yvmM" frameborder="0" allowfullscreen></iframe>
         <h3> Tonari no Totoroトトロ (String Quartet)</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ehsz9A35P34" frameborder="0" allowfullscreen></iframe>
+        <iframe title="Totoro" width="560" height="315" src="https://www.youtube.com/embed/Ehsz9A35P34" frameborder="0" allowfullscreen></iframe>
       </div>
     )
   }
