@@ -13,12 +13,12 @@ class Contact extends React.Component {
           <br></br>
           <br></br>
 
-          <input type="text" name="Email" placeholder="Your Email* " required />
+          <input type="email" name="Email" placeholder="Your Email* " required />
 
           <br></br>
           <br></br>
 
-          <input type="text" name="Phone Number" placeholder="Your Phone (optional)" />
+          <input type="tel" name="Phone Number" placeholder="Your Phone (optional)" />
 
           <br></br>
           <br></br>
