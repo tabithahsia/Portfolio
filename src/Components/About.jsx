@@ -1,5 +1,5 @@
 import React from 'react';
-import Selfie6 from '../assets/images/Selfie6.jpg';
+import CatWithCoffee from '../assets/images/CatWithCoffee.jpg';
 
 class About extends React.Component {
   render() {
@@ -7,7 +7,7 @@ class About extends React.Component {
       <div>
         <h2>About Me</h2>
         <br></br>
-        <img src={Selfie6} alt="Selfie6" id="selfie6"/>
+        <img src={CatWithCoffee} alt="CatWithCoffee" id="CatWithCoffee"/>
         <br></br>
         <br></br>
         <p>
@@ -20,10 +20,10 @@ class About extends React.Component {
           <br></br>
           I am currently a Software Engineer @ <a target="_blank" rel="noopener noreferrer" href="https://www.microsoft.com/en-us/Microsoft">Microsoft</a>
         </p>
-        <a target="_blank" rel="noopener noreferrer" href ="http://bit.ly/tabithahsiaresume">Tech Resume</a> | <a target="_blank" rel="noopener noreferrer" href="http://bit.ly/tabithahsiamusicresume">Music Resume</a>
+        <a target="_blank" rel="noopener noreferrer" href ="https://docs.google.com/document/d/1h3Kdyj4e3zcYmBM7S04EFD9_Q00oaBA3XLgHxWgFKU0/preview">Tech Resume</a> | <a target="_blank" rel="noopener noreferrer" href="http://bit.ly/tabithahsiamusicresume">Music Resume</a>
         <h3 id="about"> Skills </h3>
         <p><strong>Strong</strong>: TypeScript, JavaScript ES6, C#, ReactJS, Redux, Webpack, Node.js, Express, SQL, PostgreSQL, SQLite, MySQL, MongoDB, Mongoose, Git, HTML5, CSS3, jQuery, Bluebird</p>
-        <p><strong>Knowledgeable</strong>: AngularJS, Python, Backbone.js, D3.js, C++, WebSockets, Socket.IO, Jekyll, Heroku, AWS, KSP, Ruby</p>
+        <p><strong>Knowledgeable</strong>: AngularJS, Python, Backbone.js, D3.js, C++, WebSockets, Socket.IO, Jekyll, Heroku, AWS, KSP, Ruby, KnockoutJS</p>
 
         <h3 id="about"> Education </h3>
         <p><strong>University of the Pacific, </strong>  B.A. in Music Violin & Asian Languages and Studies: Chinese, Minor in Pre-Law
