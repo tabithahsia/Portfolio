@@ -36,6 +36,10 @@ class Music extends React.Component {
         <iframe title="Spirited Away" width="560" height="315" src="https://www.youtube.com/embed/8rPdn63yvmM" frameborder="0" allowfullscreen></iframe>
         <h3> Tonari no Totoroトトロ (String Quartet)</h3>
         <iframe title="Totoro" width="560" height="315" src="https://www.youtube.com/embed/Ehsz9A35P34" frameborder="0" allowfullscreen></iframe>
+      
+        <h2>Fun Projects</h2>
+        <h3>Microsoft the Musical</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZGeWNR8CWnA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     )
   }
