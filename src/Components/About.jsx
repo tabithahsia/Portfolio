@@ -18,7 +18,7 @@ class About extends React.Component {
           I have also played violin for over 20 years and am an active musician.
           <br></br>
           <br></br>
-          I am currently a Software Engineer @ <a target="_blank" rel="noopener noreferrer" href="https://www.microsoft.com/en-us/Microsoft">Microsoft</a>
+          I have been a Software Engineer @ <a target="_blank" rel="noopener noreferrer" href="https://www.microsoft.com/en-us/Microsoft">Microsoft</a> since Jan 25, 2019.
         </p>
         <a target="_blank" rel="noopener noreferrer" href ="https://docs.google.com/document/d/1h3Kdyj4e3zcYmBM7S04EFD9_Q00oaBA3XLgHxWgFKU0/preview">Tech Resume</a> | <a target="_blank" rel="noopener noreferrer" href="http://bit.ly/tabithahsiamusicresume">Music Resume</a>
         <h3 id="about"> Skills </h3>
