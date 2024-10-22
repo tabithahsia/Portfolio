@@ -1,13 +1,37 @@
 import React from 'react';
 
-import {
-  BuzzHome, BuzzHomeLarge, BuzzCategories, BuzzCategoriesLarge, BuzzHHList, BuzzHHListLarge,
-  JCFHome, JCFHomeLarge,
-  iResistProtests, iResistProtestsLarge, iResistProtestInfo, iResistProtestInfoLarge,
-  iResistMap, iResistMapLarge, iResistMessages, iResistMessagesLarge, iResistTweets, iResistTweetsLarge,
-  CatFacts, CatFactsLarge,
-  Yahoogle, YahoogleLarge,
-} from '../assets/images'; 
+//Photos from Buzz
+import BuzzHome from '../assets/images/Buzz Home.png';
+import BuzzHomeLarge from '../assets/images/Buzz Home Large.png';
+import BuzzCategories from '../assets/images/Buzz Categories.png';
+import BuzzCategoriesLarge from '../assets/images/Buzz Categories Large.png';
+import BuzzHHList from '../assets/images/Buzz HH List.png';
+import BuzzHHListLarge from '../assets/images/Buzz HH List Large.png';
+
+//Photos from JCF Page
+import JCFHome from '../assets/images/JCF Home.png';
+import JCFHomeLarge from '../assets/images/JCF Home Large.png';
+
+//Photos from iResist
+import iResistProtests from '../assets/images/iResist Protests.png';
+import iResistProtestsLarge from '../assets/images/iResist Protests Large.png';
+import iResistProtestInfo from '../assets/images/iResist Protest Info.png';
+import iResistProtestInfoLarge from '../assets/images/iResist Protest Info Large.png';
+import iResistMap from '../assets/images/iResist Map.png';
+import iResistMapLarge from '../assets/images/iResist Map Large.png';
+import iResistMessages from '../assets/images/iResist Messages.png';
+import iResistMessagesLarge from '../assets/images/iResist Messages Large.png';
+import iResistTweets from '../assets/images/iResist Tweets.png';
+import iResistTweetsLarge from '../assets/images/iResist Tweets Large.png';
+
+//Photos from Cat Facts
+import CatFacts from '../assets/images/Cat Facts.png';
+import CatFactsLarge from '../assets/images/Cat Facts Large.png';
+
+//Photo from Yahoogle Mail
+import Yahoogle from '../assets/images/Yahoogle.png';
+import YahoogleLarge from '../assets/images/Yahoogle-Large.png';
+
 
 const Project = ({ title, description, technologies, demoLink, repoLink, images }) => (
   <div className="project">
