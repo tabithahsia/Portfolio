@@ -14,7 +14,7 @@ const About = () => {
         
         <section>
         <h3> Skills </h3>
-          <p><strong>Strong</strong>: TypeScript, JavaScript ES6, C#, ReactJS, Redux, Webpack, Node.js, Express, SQL, PostgreSQL, SQLite, MySQL, MongoDB, Mongoose, Git, HTML5, CSS3, jQuery, Bluebird</p>
+          <p><strong>Strong</strong>: TypeScript, JavaScript ES6, ReactJS, Redux, C#, Webpack, Node.js, Express, SQL, PostgreSQL, SQLite, MySQL, MongoDB, Mongoose, Git, HTML5, CSS3, jQuery, Bluebird</p>
           <p><strong>Knowledgeable</strong>: AngularJS, Python, Backbone.js, D3.js, C++, WebSockets, Socket.IO, Jekyll, Heroku, AWS, KSP, Ruby, KnockoutJS</p>
         </section>
 
