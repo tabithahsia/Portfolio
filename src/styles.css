@@ -2,6 +2,7 @@ button {
    font-family: 'Open Sans', sans-serif;
    border: 1px outset black;
    background-color: white;
+   color: black;
    height:300px;
    width:300px;
    cursor:pointer;
@@ -19,21 +20,17 @@ h1 {
   text-indent: 1.5%;
 }
 
-hr {
-  margin-bottom: 30px;
-}
-
-h2 #header {
+h2 {
   font-family: 'Roboto Mono', monospace;
   text-indent: 3%;
 }
 
+hr {
+  margin-bottom: 30px;
+}
+
 img {
   margin: 4px;
-}
-#image{
-  /* margin: 10px; */
-  margin-top: 50px;
 }
 
 #italicize {
@@ -68,18 +65,11 @@ ul {
   align-items: flex-end;
 }
 
-
 .container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-content: center;
-}
-
-.divider {
-    width:10px;
-    height:auto;
-    display:inline-block;
 }
 
 .thumbnail img {
