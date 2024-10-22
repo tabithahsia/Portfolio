@@ -11,17 +11,17 @@ class About extends React.Component {
         <br></br>
         <br></br>
         <p>
-          Hello there! My name is Tabitha Hsia. I am a Full-Stack Software Engineer based in the Greater Seattle Area.
+          Hello there! My name is Tabitha Hsia. I am a Full-Stack Software Engineer currently on a career break.
           <br></br>
           I enjoy challenging myself through learning new technologies and implementing them in exciting projects.
           <br></br>
           I have also played violin for over 20 years and am an active musician.
           <br></br>
           <br></br>
-          I have been a Software Engineer @ <a target="_blank" rel="noopener noreferrer" href="https://www.microsoft.com/en-us/Microsoft">Microsoft</a> since Jan 25, 2019.
+          I was a Software Engineer @ <a target="_blank" rel="noopener noreferrer" href="https://www.microsoft.com/en-us/Microsoft">Microsoft</a> from Jan 25, 2019 - Dec 11, 2023.
         </p>
         <a target="_blank" rel="noopener noreferrer" href ="https://docs.google.com/document/d/1h3Kdyj4e3zcYmBM7S04EFD9_Q00oaBA3XLgHxWgFKU0/preview">Tech Resume</a> | <a target="_blank" rel="noopener noreferrer" href="http://bit.ly/tabithahsiamusicresume">Music Resume</a>
-        <h3 id="about"> Skills </h3>
+        <h3 id="skills"> Skills </h3>
         <p><strong>Strong</strong>: TypeScript, JavaScript ES6, C#, ReactJS, Redux, Webpack, Node.js, Express, SQL, PostgreSQL, SQLite, MySQL, MongoDB, Mongoose, Git, HTML5, CSS3, jQuery, Bluebird</p>
         <p><strong>Knowledgeable</strong>: AngularJS, Python, Backbone.js, D3.js, C++, WebSockets, Socket.IO, Jekyll, Heroku, AWS, KSP, Ruby, KnockoutJS</p>
 
