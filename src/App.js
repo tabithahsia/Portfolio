@@ -63,7 +63,7 @@ class App extends Component {
           {this.renderModalContent()}
         </Modal>
 
-        <div id="image">
+        <div id="externalLinks">
           <a href="https://github.com/tabithahsia" target="_blank" rel="noopener noreferrer"><img src={Github} alt="My Github" className="icon"/></a>
           <a href="https://linkedin.com/in/tabithahsia" target="_blank" rel="noopener noreferrer"><img src={Linkedin} alt="My Linkedin" className="icon"/></a>
         </div>
