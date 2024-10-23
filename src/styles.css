@@ -58,11 +58,12 @@ ul {
   -moz-columns: 3;
 }
 
-#image {
+#externalLinks {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: flex-end;
+  margin-top: 50px
 }
 
 .container {
@@ -79,4 +80,17 @@ ul {
 
 .icon:hover {
   opacity: 0.5;
+}
+
+@media (max-width: 600px) {
+  iframe {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .audio-container,
+  .video-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
