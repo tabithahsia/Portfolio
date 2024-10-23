@@ -8,15 +8,15 @@ import Melodie from '../assets/music/Tchaikovsky Melodie.mp3';
 
 // Reusable component for audio player
 const AudioPiece = ({ title, src }) => (
-  <div>
+  <div className="audio-container">
     <h3>{title}</h3>
     <ReactAudioPlayer src={src} controls />
   </div>
 );
 
 // Reusable component for iframe embeds
-const VideoEmbed = ({ title, src, width = '560', height = '315' }) => (
-  <div>
+const VideoEmbed = ({ title, src, width = "500", height = "315"}) => (
+  <div className="video-container">
     <h3>{title}</h3>
     <iframe
       title={title}
