@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import About from './Components/About.jsx';
-import Portfolio from './Components/Portfolio.jsx';
-import Contact from './Components/Contact.jsx';
-import './styles.css'
-import Modal from 'react-responsive-modal';
-import Github from './GitHub-Mark-64px.png';
-import Linkedin from './In-Black-66px-R.png';
+import React, { Component } from "react";
+import About from "./Components/About.jsx";
+import Portfolio from "./Components/Portfolio.jsx";
+import Contact from "./Components/Contact.jsx";
+import "./styles.css";
+import Modal from "react-responsive-modal";
+import Github from "./GitHub-Mark-64px.png";
+import Linkedin from "./In-Black-66px-R.png";
 
 class App extends Component {
   constructor(props) {
@@ -14,37 +14,37 @@ class App extends Component {
       showAbout: false,
       showPortfolio: false,
       showContact: false,
-      open: false
-    }
+      open: false,
+    };
     this.handleAbout = this.handleAbout.bind(this);
     this.handlePortfolio = this.handlePortfolio.bind(this);
     this.handleContact = this.handleContact.bind(this);
   }
 
-  handleAbout () {
+  handleAbout() {
     this.setState({
       showAbout: true,
       showPortfolio: false,
       showContact: false,
-      open: true
-    })
+      open: true,
+    });
   }
-  handlePortfolio () {
+  handlePortfolio() {
     this.setState({
       showPortfolio: true,
       showAbout: false,
       showContact: false,
-      open: true
-    })
+      open: true,
+    });
   }
 
-  handleContact () {
+  handleContact() {
     this.setState({
       showContact: true,
       showAbout: false,
       showPortfolio: false,
-      open: true
-    })
+      open: true,
+    });
   }
 
   onOpenModal = () => {
@@ -58,38 +58,58 @@ class App extends Component {
   render() {
     const { open } = this.state;
     return (
-      <div>
-        <h1>Tabitha Hsia, Full-Stack Software Engineer & Violinist </h1>
-        <hr></hr>
-        <br></br>
-        <div className="container">
-          <button className="item" onClick={ () => this.handleAbout() }>About</button>
-          <button className="item" onClick={ () => this.handlePortfolio() }>Portfolio</button>
-          <button className="item" onClick={ () => this.handleContact() }>Contact</button>
-
-          { this.state.showAbout ?
-            <Modal open={open} onClose={this.onCloseModal} > <About /> </Modal>
-            :
-            null
-          }
-          { this.state.showPortfolio ?
-             <Modal open={open} onClose={this.onCloseModal} > <Portfolio /> </Modal>
-             :
-             null
-          }
-          { this.state.showContact ?
-            <Modal open={open} onClose={this.onCloseModal} little> <Contact /> </Modal>
-            :
-            null
-          }
-
-        </div>
-
-        <div id="image">
-          <a href="https://github.com/tabithahsia" target="_blank" rel="noopener noreferrer"><img src={Github} alt="My Github" className="icon" id="iconImage" hspace="20px"/></a>
-          <a href="https://linkedin.com/in/tabithahsia" target="_blank" rel="noopener noreferrer"><img src={Linkedin} alt="My Linkedin" className="icon" id="iconImage" hspace="20px"/></a>
-        </div>
-      </div>
+      <>
+        <header>
+          <h1>Tabitha Hsia, Full-Stack Software Engineer & Violinist </h1>
+        </header>
+        <hr />
+        <nav className="site-nav">
+          <button className="nav-item" onClick={() => this.handleAbout()}>
+            About
+          </button>
+          <button className="nav-item" onClick={() => this.handlePortfolio()}>
+            Portfolio
+          </button>
+          <button className="nav-item" onClick={() => this.handleContact()}>
+            Contact
+          </button>
+        </nav>
+        <main>
+          {this.state.showAbout ? (
+            <Modal open={open} onClose={this.onCloseModal}>
+              <About />
+            </Modal>
+          ) : null}
+          {this.state.showPortfolio ? (
+            <Modal open={open} onClose={this.onCloseModal}>
+              <Portfolio />
+            </Modal>
+          ) : null}
+          {this.state.showContact ? (
+            <Modal open={open} onClose={this.onCloseModal} little>
+              <Contact />
+            </Modal>
+          ) : null}
+        </main>
+        <footer>
+          <div className="social-links">
+            <a
+              href="https://github.com/tabithahsia"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={Github} alt="My Github" className="icon" />
+            </a>
+            <a
+              href="https://linkedin.com/in/tabithahsia"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={Linkedin} alt="My Linkedin" className="icon" />
+            </a>
+          </div>
+        </footer>
+      </>
     );
   }
 }
