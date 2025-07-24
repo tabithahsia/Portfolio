@@ -1,38 +1,55 @@
-import React from 'react';
+import { Component } from "react";
 
-class Contact extends React.Component {
+class Contact extends Component {
   render() {
     return (
       <div>
         <h2>Contact Me</h2>
-        <p> Contact me at <a href="mailto:tabithahsia@gmail.com">tabithahsia@gmail.com</a> </p>
+        <p>
+          {" "}
+          Contact me at{" "}
+          <a href="mailto:tabithahsia@gmail.com">tabithahsia@gmail.com</a>{" "}
+        </p>
         <p> or fill out the form below </p>
-        <form action="https://formspree.io/tabithahsia@gmail.com" method="POST" class="submissionfield">
-          <input type="text" name="Name" placeholder="Your Name* " required/>
+        <form
+          action="https://formspree.io/tabithahsia@gmail.com"
+          method="POST"
+          class="submissionfield"
+        >
+          <input type="text" name="Name" placeholder="Your Name* " required />
 
           <br></br>
           <br></br>
 
-          <input type="email" name="Email" placeholder="Your Email* " required />
+          <input
+            type="email"
+            name="Email"
+            placeholder="Your Email* "
+            required
+          />
 
           <br></br>
           <br></br>
 
-          <input type="tel" name="Phone Number" placeholder="Your Phone (optional)" />
+          <input
+            type="tel"
+            name="Phone Number"
+            placeholder="Your Phone (optional)"
+          />
 
           <br></br>
           <br></br>
 
-          <textarea name="Message" placeholder="Your Message*" required/>
+          <textarea name="Message" placeholder="Your Message*" required />
 
           <br></br>
           <br></br>
 
-          <input type="submit" value="Submit"/>
+          <input type="submit" value="Submit" />
         </form>
       </div>
-    )
+    );
   }
 }
 
-export default Contact
+export default Contact;

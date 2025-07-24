@@ -1,10 +1,9 @@
-import React from 'react';
-import ReactAudioPlayer from 'react-audio-player';
+import ReactAudioPlayer from "react-audio-player";
 
 // Pieces
-import Prokofiev from '../assets/music/Prokofiev.mp3';
-import Wieniawski2 from '../assets/music/Wieniawski Violin Concerto no. 2 mvt 3.mp3';
-import Melodie from '../assets/music/Tchaikovsky Melodie.mp3';
+import Prokofiev from "../assets/music/Prokofiev.mp3";
+import Wieniawski2 from "../assets/music/Wieniawski Violin Concerto no. 2 mvt 3.mp3";
+import Melodie from "../assets/music/Tchaikovsky Melodie.mp3";
 
 // Reusable component for audio player
 const AudioPiece = ({ title, src }) => (
@@ -15,7 +14,7 @@ const AudioPiece = ({ title, src }) => (
 );
 
 // Reusable component for iframe embeds
-const VideoEmbed = ({ title, src, width = "500", height = "315"}) => (
+const VideoEmbed = ({ title, src, width = "500", height = "315" }) => (
   <div className="video-container">
     <h3>{title}</h3>
     <iframe
@@ -36,8 +35,8 @@ const Music = () => {
       <section>
         <h2>Pieces I've played</h2>
         <AudioPiece
-            title="Prokofiev Violin Concerto 1, 2nd Movement"
-            src={Prokofiev}
+          title="Prokofiev Violin Concerto 1, 2nd Movement"
+          src={Prokofiev}
         />
         <AudioPiece
           title="Wieniawski Violin Concerto 2, 3rd Movement"
@@ -46,8 +45,23 @@ const Music = () => {
         <AudioPiece title="Tchaikovsky Melodie (No. 3)" src={Melodie} />
 
         <h3>Piazzolla Ave Maria (Tanti Anni Prima)</h3>
-        <iframe title="Piazzolla Ave Maria" src="https://player.vimeo.com/video/442256781" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-        <p><a href="https://vimeo.com/442256781">DSO Quartet - Piazzolla&rsquo;s &ldquo;Tanti Anni Prima&rdquo; (Ave Mar&iacute;a)</a> from <a href="https://vimeo.com/user81927946">Christine Hsia</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+        <iframe
+          title="Piazzolla Ave Maria"
+          src="https://player.vimeo.com/video/442256781"
+          width="640"
+          height="360"
+          frameborder="0"
+          allow="autoplay; fullscreen"
+          allowfullscreen
+        ></iframe>
+        <p>
+          <a href="https://vimeo.com/442256781">
+            DSO Quartet - Piazzolla&rsquo;s &ldquo;Tanti Anni Prima&rdquo; (Ave
+            Mar&iacute;a)
+          </a>{" "}
+          from <a href="https://vimeo.com/user81927946">Christine Hsia</a> on{" "}
+          <a href="https://vimeo.com">Vimeo</a>.
+        </p>
       </section>
 
       <section>
@@ -63,12 +77,20 @@ const Music = () => {
       </section>
 
       <section>
-      <h2>Fun Projects</h2>
-            <h3>Microsoft the Musical</h3>
-            <iframe title="Microsoft the Musical" width="560" height="315" src="https://www.youtube.com/embed/ZGeWNR8CWnA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h2>Fun Projects</h2>
+        <h3>Microsoft the Musical</h3>
+        <iframe
+          title="Microsoft the Musical"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/ZGeWNR8CWnA"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </section>
     </div>
-  )
-}
+  );
+};
 
 export default Music;

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import About from "./Components/About.jsx";
 import Portfolio from "./Components/Portfolio.jsx";
 import Contact from "./Components/Contact.jsx";

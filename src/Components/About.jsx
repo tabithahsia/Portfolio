@@ -1,11 +1,10 @@
-import React from "react";
 import CatWithCoffee from "../assets/images/CatWithCoffee.jpg";
 
 const About = () => {
   return (
     <div>
       <h2>About Me</h2>
-      <img src={CatWithCoffee} alt="Cat with coffee" id="CatWithCoffee" />
+      <img src={CatWithCoffee} alt="Sleepy cat with a coffee mug" />
       <p>
         Hello there! My name is Tabitha Hsia. I am a Full-Stack Software
         Engineer currently on a career break.
