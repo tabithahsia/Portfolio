@@ -10,7 +10,7 @@ const Contact = () => {
       <form
         action="https://formspree.io/tabithahsia@gmail.com"
         method="POST"
-        class="submissionfield"
+        className="submission-field"
       >
         <label htmlFor="Name">Name (required)</label>
         <input
