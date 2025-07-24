@@ -41,7 +41,7 @@ const Project = ({
   <div className="project">
     <h3>{title}</h3>
     <p>{description}</p>
-    <p className="italicize">
+    <p>
       {title} is built with {technologies}
     </p>
     <span>
