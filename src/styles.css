@@ -1,34 +1,36 @@
 /* Prevent horizontal overflow */
-body, html {
+body,
+html {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
 }
 
 button {
-   font-family: 'Open Sans', sans-serif;
-   border: 1px solid black;
-   background-color: white;
-   height:300px;
-   width:300px;
-   cursor:pointer;
-   font-size: 30px;
-   border-width: 5px;
-   color: black;
+  font-family: "Open Sans", sans-serif;
+  border: 1px solid black;
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  cursor: pointer;
+  font-size: 30px;
+  border-width: 5px;
+  color: black;
 }
 
-button:hover {
-   background-color: black;
-   color:white;
+button:hover,
+button:focus {
+  background-color: black;
+  color: white;
 }
 
 h1 {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   text-indent: 1.5%;
 }
 
 h2 #header {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   text-indent: 3%;
 }
 
@@ -70,7 +72,7 @@ ul {
   flex-flow: row wrap;
   justify-content: center;
   align-items: flex-end;
-  margin-top: 50px
+  margin-top: 50px;
 }
 
 .container {
@@ -86,6 +88,10 @@ ul {
 }
 
 .icon:hover {
+  opacity: 0.5;
+}
+
+.icon:focus {
   opacity: 0.5;
 }
 
