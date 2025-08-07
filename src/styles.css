@@ -29,17 +29,8 @@ h1 {
   text-indent: 1.5%;
 }
 
-h2 #header {
-  font-family: "Roboto Mono", monospace;
-  text-indent: 3%;
-}
-
 hr {
   margin-bottom: 30px;
-}
-
-img {
-  margin: 4px;
 }
 
 #italicize {
