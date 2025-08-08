@@ -6,7 +6,7 @@ html {
   padding: 0;
 }
 
-button {
+.item {
   font-family: "Open Sans", sans-serif;
   border: 1px solid black;
   background-color: white;
@@ -18,8 +18,7 @@ button {
   color: black;
 }
 
-button:hover,
-button:focus {
+.item:hover {
   background-color: black;
   color: white;
 }

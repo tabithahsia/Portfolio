@@ -4,6 +4,7 @@ import Portfolio from "./Components/Portfolio.jsx";
 import Contact from "./Components/Contact.jsx";
 import Music from "./Components/Music.jsx";
 import "./styles.css";
+import "react-responsive-modal/styles.css";
 import Modal from "react-responsive-modal";
 import Github from "./assets/icons/GitHub-Mark-64px.png";
 import Linkedin from "./assets/icons/In-Black-66px-R.png";
