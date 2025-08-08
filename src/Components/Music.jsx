@@ -14,16 +14,15 @@ const AudioPiece = ({ title, src }) => (
 );
 
 // Reusable component for iframe embeds
-const VideoEmbed = ({ title, src, width = "500", height = "315" }) => (
+const YouTubeVideoEmbed = ({ title, src }) => (
   <div className="video-container">
     <h3>{title}</h3>
     <iframe
       title={title}
-      width={width}
-      height={height}
+      width={560} // This is the default value on the YouTube embeded code
+      height={315} // This is the default value on the YouTube embeded code
       src={src}
-      frameBorder="0"
-      allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowFullScreen
     ></iframe>
   </div>
@@ -33,7 +32,7 @@ const Music = () => {
   return (
     <div>
       <section>
-        <h2>Pieces I've played</h2>
+        <h2>Pieces I've recorded</h2>
         <AudioPiece
           title="Prokofiev Violin Concerto 1, 2nd Movement"
           src={Prokofiev}
@@ -50,9 +49,7 @@ const Music = () => {
           src="https://player.vimeo.com/video/442256781"
           width="640"
           height="360"
-          frameborder="0"
           allow="autoplay; fullscreen"
-          allowfullscreen
         ></iframe>
         <p>
           <a href="https://vimeo.com/442256781">
@@ -66,11 +63,11 @@ const Music = () => {
 
       <section>
         <h2>Pieces I've Transcribed/Arranged</h2>
-        <VideoEmbed
+        <YouTubeVideoEmbed
           title="Spirited Away: いつも何度でも ,Itsumo Nando Demo, Always With Me (Piano Trio)"
           src="https://www.youtube.com/embed/8rPdn63yvmM"
         />
-        <VideoEmbed
+        <YouTubeVideoEmbed
           title="Tonari no Totoroトトロ (String Quartet)"
           src="https://www.youtube.com/embed/Ehsz9A35P34"
         />
@@ -79,15 +76,10 @@ const Music = () => {
       <section>
         <h2>Fun Projects</h2>
         <h3>Microsoft the Musical</h3>
-        <iframe
+        <YouTubeVideoEmbed
           title="Microsoft the Musical"
-          width="560"
-          height="315"
           src="https://www.youtube.com/embed/ZGeWNR8CWnA"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+        />
       </section>
     </div>
   );
