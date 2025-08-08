@@ -13,7 +13,7 @@ const AudioPiece = ({ title, src }) => (
   </div>
 );
 
-// Reusable component for iframe embeds
+// Reusable component for YouTube video embed
 const YouTubeVideoEmbed = ({ title, src }) => (
   <div className="video-container">
     <h3>{title}</h3>
