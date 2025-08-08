@@ -37,7 +37,8 @@ hr {
 }
 
 input {
-  width: 375px;
+  width: 100%;
+  max-width: 375px;
   display: block;
   border: 1px solid #999;
   height: 25px;
@@ -47,7 +48,8 @@ input {
 }
 
 textarea {
-  width: 375px;
+  width: 100%;
+  max-width: 375px;
   height: 150px;
 }
 
