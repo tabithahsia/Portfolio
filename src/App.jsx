@@ -45,8 +45,11 @@ class App extends Component {
 
     return (
       <div>
-        <h1>Tabitha Hsia, Full-Stack Software Engineer & Violinist </h1>
-        <hr />
+        <header>
+          <h1>Tabitha Hsia, Full-Stack Software Engineer & Violinist </h1>
+          <hr />
+        </header>
+
         <div className="container">
           {["About", "Portfolio", "Contact", "Music"].map((modal) => (
             <button
