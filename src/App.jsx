@@ -8,6 +8,9 @@ import Modal from "react-responsive-modal";
 import Github from "./assets/icons/GitHub-Mark-64px.png";
 import Linkedin from "./assets/icons/In-Black-66px-R.png";
 
+const GITHUB_URL = "https://github.com/tabithahsia";
+const LINKEDIN_URL = "https://linkedin.com/in/tabithahsia";
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -50,38 +53,34 @@ class App extends Component {
           <hr />
         </header>
 
-        <div className="container">
-          {["About", "Portfolio", "Contact", "Music"].map((modal) => (
-            <button
-              key={modal}
-              className="item"
-              onClick={() => this.handleModal(modal)}
-            >
-              {modal}
-            </button>
-          ))}
-        </div>
+        <main>
+          <div className="container">
+            {["About", "Portfolio", "Contact", "Music"].map((modal) => (
+              <button
+                key={modal}
+                className="item"
+                onClick={() => this.handleModal(modal)}
+              >
+                {modal}
+              </button>
+            ))}
+          </div>
 
-        <Modal open={!!activeModal} onClose={this.onCloseModal} center>
-          {this.renderModalContent()}
-        </Modal>
+          <Modal open={!!activeModal} onClose={this.onCloseModal} center>
+            {this.renderModalContent()}
+          </Modal>
+        </main>
 
-        <div id="external-links">
-          <a
-            href="https://github.com/tabithahsia"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={Github} alt="My Github" className="icon" />
-          </a>
-          <a
-            href="https://linkedin.com/in/tabithahsia"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={Linkedin} alt="My Linkedin" className="icon" />
-          </a>
-        </div>
+        <footer>
+          <div id="external-links">
+            <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">
+              <img src={Github} alt="My Github" className="icon" />
+            </a>
+            <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">
+              <img src={Linkedin} alt="My Linkedin" className="icon" />
+            </a>
+          </div>
+        </footer>
       </div>
     );
   }
