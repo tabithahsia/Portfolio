@@ -26,10 +26,14 @@ const Music = () => {
     <div>
       <section>
         <h2>Pieces I've recorded</h2>
-        <AudioPiece
+        {/* <AudioPiece
           title="Prokofiev Violin Concerto 1, 2nd Movement"
           src="/music/Prokofiev.mp3"
-        />
+        /> */}
+        <div className="audio-container">
+          <h3>Prokofiev Violin Concerto 1, 2nd Movement</h3>
+          <audio controls src="/music/Prokofiev.mp3"></audio>
+        </div>
         <AudioPiece
           title="Wieniawski Violin Concerto 2, 3rd Movement"
           src="/music/Wieniawski Violin Concerto no. 2 mvt 3.mp3"
