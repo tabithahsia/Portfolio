@@ -1,8 +1,3 @@
-// Pieces
-import Prokofiev from "../../public/music/Prokofiev.mp3";
-import Wieniawski2 from "../../public/music/Wieniawski Violin Concerto no. 2 mvt 3.mp3";
-import Melodie from "../../public/music/Tchaikovsky Melodie.mp3";
-
 // Reusable component for audio player
 const AudioPiece = ({ title, src }) => (
   <div className="audio-container">
@@ -33,13 +28,16 @@ const Music = () => {
         <h2>Pieces I've recorded</h2>
         <AudioPiece
           title="Prokofiev Violin Concerto 1, 2nd Movement"
-          src={Prokofiev}
+          src="/music/Prokofiev.mp3"
         />
         <AudioPiece
           title="Wieniawski Violin Concerto 2, 3rd Movement"
-          src={Wieniawski2}
+          src="/music/Wieniawski Violin Concerto no. 2 mvt 3.mp3"
         />
-        <AudioPiece title="Tchaikovsky Melodie (No. 3)" src={Melodie} />
+        <AudioPiece
+          title="Tchaikovsky Melodie (No. 3)"
+          src="/music/Tchaikovsky Melodie.mp3"
+        />
 
         <h3>Piazzolla Ave Maria (Tanti Anni Prima)</h3>
         <iframe
