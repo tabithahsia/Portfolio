@@ -1,7 +1,7 @@
 // Pieces
-import Prokofiev from "../assets/music/Prokofiev.mp3";
-import Wieniawski2 from "../assets/music/Wieniawski Violin Concerto no. 2 mvt 3.mp3";
-import Melodie from "../assets/music/Tchaikovsky Melodie.mp3";
+import Prokofiev from "../../public/music/Prokofiev.mp3";
+import Wieniawski2 from "../../public/music/Wieniawski Violin Concerto no. 2 mvt 3.mp3";
+import Melodie from "../../public/music/Tchaikovsky Melodie.mp3";
 
 // Reusable component for audio player
 const AudioPiece = ({ title, src }) => (
