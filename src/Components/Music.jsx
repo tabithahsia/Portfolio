@@ -1,5 +1,3 @@
-import ReactAudioPlayer from "react-audio-player";
-
 // Pieces
 import Prokofiev from "../assets/music/Prokofiev.mp3";
 import Wieniawski2 from "../assets/music/Wieniawski Violin Concerto no. 2 mvt 3.mp3";
@@ -9,7 +7,7 @@ import Melodie from "../assets/music/Tchaikovsky Melodie.mp3";
 const AudioPiece = ({ title, src }) => (
   <div className="audio-container">
     <h3>{title}</h3>
-    <ReactAudioPlayer src={src} controls />
+    <audio controls src={src}></audio>
   </div>
 );
 
