@@ -71,7 +71,6 @@ const Music = () => {
 
       <section>
         <h2>Fun Projects</h2>
-        <h3>Microsoft the Musical</h3>
         <YouTubeVideoEmbed
           title="Microsoft the Musical"
           src="https://www.youtube.com/embed/ZGeWNR8CWnA"
