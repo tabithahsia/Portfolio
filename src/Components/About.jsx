@@ -7,17 +7,17 @@ const About = () => {
       <img src={CatWithCoffee} alt="Sleepy cat with a coffee mug" />
       <p>
         Hello there! My name is Tabitha Hsia. I am a Full-Stack Software
-        Engineer currently on a career break.
+        Engineer.
       </p>
       <p>
         I enjoy challenging myself through learning new technologies and
         implementing them in exciting projects.
       </p>
       <p>
-        I have also played violin for over 20 years and am an active musician.
+        I have also played violin for over 25 years and am an active musician.
       </p>
       <p>
-        I was a Software Engineer @{" "}
+        Software Engineer @{" "}
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -30,7 +30,7 @@ const About = () => {
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="https://docs.google.com/document/d/1h3Kdyj4e3zcYmBM7S04EFD9_Q00oaBA3XLgHxWgFKU0/preview"
+        href="https://docs.google.com/document/d/1S39dU4-UjoiBQCZwY9TaYw4p4PGHxKQw0gyJHhryMa0/preview?tab=t.0"
       >
         Tech Resume
       </a>{" "}
@@ -38,20 +38,22 @@ const About = () => {
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="http://bit.ly/tabithahsiamusicresume"
+        href="https://docs.google.com/document/d/1TqdriyPMGva18hs3mzGAo6RuQonHcx-S-82UIR957m4/preview?tab=t.0"
       >
         Music Resume
       </a>
       <section>
         <h3> Skills </h3>
         <p>
-          <strong>Strong</strong>: TypeScript, JavaScript ES6, ReactJS, Redux,
-          C#, Webpack, Node.js, Express, SQL, PostgreSQL, SQLite, MySQL,
-          MongoDB, Mongoose, Git, HTML5, CSS3, jQuery, Bluebird
+          <strong>Strong</strong>: TypeScript, JavaScript, C#, ReactJS, Redux,
+          Flux, React Testing Library, Git, HTML5, CSS3, jQuery, Figma
         </p>
         <p>
-          <strong>Knowledgeable</strong>: AngularJS, Python, Backbone.js, D3.js,
-          C++, WebSockets, Socket.IO, Jekyll, Heroku, AWS, KSP, Ruby, KnockoutJS
+          <strong>Knowledgeable</strong>: Cypress, KnockoutJS, KQL, AngularJS,
+          Python, Backbone.js, D3.js, C++, WebSockets, Socket.IO, Jekyll,
+          Heroku, AWS, Azure, KSP, Ruby, Webpack, Node.js, Express, SQL, SQL
+          Server, PostgreSQL, SQLite, MySQL, MongoDB, Mongoose, Bluebird,
+          FetchXML, Render, Prisma, Vite
         </p>
       </section>
       <section>

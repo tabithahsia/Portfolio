@@ -144,6 +144,14 @@ const Portfolio = () => {
   return (
     <div className="portfolio">
       <h2>Portfolio</h2>
+      <aside>
+        <p>
+          <em>
+            Note: Live project links are temporarily unavailable while they are
+            being migrated away from Heroku. Thank you for your patience.
+          </em>
+        </p>
+      </aside>
       {projects.map((project) => (
         <Project key={project.title} {...project} />
       ))}
