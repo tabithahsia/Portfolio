@@ -1,4 +1,6 @@
-import ProkofievViolinConcertoTwoSecondMovement from "../assets/music/Prokofiev.mp3";
+import ProkofievViolinConcertoOneSecondMovement from "../assets/music/Prokofiev.mp3";
+import WieniawskiViolinConcertoTwoThirdMovement from "../assets/music/Wieniawski Violin Concerto no. 2 mvt 3.mp3";
+import TchaikovskyMelodie from "../assets/music/Tchaikovsky Melodie.mp3";
 
 // Reusable component for audio player
 const AudioPiece = ({ title, src }) => (
@@ -30,15 +32,15 @@ const Music = () => {
         <h2>Pieces I've recorded</h2>
         <AudioPiece
           title="Prokofiev Violin Concerto 1, 2nd Movement"
-          src={ProkofievViolinConcertoTwoSecondMovement}
+          src={ProkofievViolinConcertoOneSecondMovement}
         />
         <AudioPiece
           title="Wieniawski Violin Concerto 2, 3rd Movement"
-          src="/music/Wieniawski Violin Concerto no. 2 mvt 3.mp3"
+          src={WieniawskiViolinConcertoTwoThirdMovement}
         />
         <AudioPiece
           title="Tchaikovsky Melodie (No. 3)"
-          src="/music/Tchaikovsky Melodie.mp3"
+          src={TchaikovskyMelodie}
         />
 
         <h3>Piazzolla Ave Maria (Tanti Anni Prima)</h3>
