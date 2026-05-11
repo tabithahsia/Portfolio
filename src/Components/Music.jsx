@@ -1,3 +1,5 @@
+import ProkofievViolinConcertoTwoSecondMovement from "../assets/music/Prokofiev.mp3";
+
 // Reusable component for audio player
 const AudioPiece = ({ title, src }) => (
   <div className="audio-container">
@@ -28,7 +30,7 @@ const Music = () => {
         <h2>Pieces I've recorded</h2>
         <AudioPiece
           title="Prokofiev Violin Concerto 1, 2nd Movement"
-          src="/music/Prokofiev.mp3"
+          src={ProkofievViolinConcertoTwoSecondMovement}
         />
         <AudioPiece
           title="Wieniawski Violin Concerto 2, 3rd Movement"
