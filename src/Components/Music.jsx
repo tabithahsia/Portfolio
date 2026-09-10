@@ -59,6 +59,10 @@ const Music = () => {
           from <a href="https://vimeo.com/user81927946">Christine Hsia</a> on{" "}
           <a href="https://vimeo.com">Vimeo</a>.
         </p>
+        <YouTubeVideoEmbed
+          title="John Williams Somewhere in My Memory"
+          src="https://www.youtube.com/embed/nnO0UbXJvwI?si=mZllpmyT1C-zAaf3"
+        />
       </section>
 
       <section>
